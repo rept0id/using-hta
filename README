@@ -31,5 +31,6 @@ For the future :
 -> HTA apps based on VBS, just to do stuff like deleting storage files, gain system info etc.
 -> HTA apps that works with cookies !
 -> Create HTA apps based on websites !
-    ---> Still having some problems here, need to work a lot with the hta logic, try again some examples but with the x-ua-compatible tag etc.
+    ---> Still having some problems here, need to work a lot with the hta logic, 
+         try again some examples but with the x-ua-compatible tag etc.
          Pages sure the wont be transformed easily but i need to find a pattern/patent there too.
