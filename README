@@ -26,3 +26,10 @@ but this can be altered using X-UA-Compatible headers*. The HTA engine (mshta.ex
 Starting from Windows Vista, a user can remove Internet Explorer from Windows, which will cause the HTA engine to stop working.
 
 * Needed meta-tag (HEAD) to work with modern browsers standards : <meta http-equiv="x-ua-compatible" content="ie=11"/>
+
+For the future : 
+-> HTA apps based on VBS, just to do stuff like deleting storage files, gain system info etc.
+-> HTA apps that works with cookies !
+-> Create HTA apps based on websites !
+    ---> Still having some problems here, need to work a lot with the hta logic, try again some examples but with the x-ua-compatible tag etc.
+         Pages sure the wont be transformed easily but i need to find a pattern/patent there too.
