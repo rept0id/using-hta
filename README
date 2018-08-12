@@ -19,8 +19,7 @@ An HTA executes without the constraints of the internet browser security model; 
 The usual file extension of an HTA is .hta.
 ~Uses~
 HTAs give the developer the features of HTML together with the advantages of scripting languages. 
-They are popular with Microsoft system administrators who use them for system administration from prototypes to "full-scale" applications,
-especially where flexibility and speed of development are critical.
+They are popular with Microsoft system administrators who use them for system administration from prototypes to "full-scale" applications, especially where flexibility and speed of development are critical.
 ~Info about the environment~  ********************************X-UA-Compatible headers**********************************************
 By default, HTAs are rendered as per "standards-mode content in IE7 Standards mode and quirks mode content in IE5 (Quirks) mode", 
 but this can be altered using X-UA-Compatible headers*. The HTA engine (mshta.exe) is dependent on Internet Explorer. 
