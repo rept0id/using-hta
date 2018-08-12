@@ -1,9 +1,11 @@
+->Check JSfiddle examples for a simple HTML/CSS/JS example* Dont worry ;)
+
 Based on the principle of the least effort (https://en.wikipedia.org/wiki/Principle_of_least_effort), 
 We will try here to give some examples and templates to easily create graphical Windows applications just by using HTML.
 
 Just read the code, the comments and then you will know where to paste your code.
 
-In the first examples we create a programm based on the JSFiddle's Jquery example. You dont really need to know about JSFiddle, 
+*In the first examples we create a programm based on the JSFiddle's Jquery example. You dont really need to know about JSFiddle, 
 what we work with is just a simple html, css and javascript (with jquery) code that is used as example there.
 You may want to pay a visit at http://jsfiddle.net. It's a robust, easy to use and really great tool to writte web code on the fly.
 ----------------------------------------------------------------------------------------------------------------------------------------
