@@ -6,7 +6,7 @@ Just read the code, the comments and then you will know where to paste your code
 In the first examples we create a programm based on the JSFiddle's Jquery example. You dont really need to know about JSFiddle, 
 what we work with is just a simple html, css and javascript (with jquery) code that is used as example there.
 You may want to pay a visit at http://jsfiddle.net. It's a robust, easy to use and really great tool to writte web code on the fly.
------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------
 HTML Application (Wikipedia) 
 ~https://en.wikipedia.org/wiki/HTML_Application~
 An HTML Application (HTA) is a Microsoft Windows program whose source code consists of HTML, Dynamic HTML, and one or more scripting 
