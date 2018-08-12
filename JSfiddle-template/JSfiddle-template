@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- I love lazyscripts. We will try to create a template just to copy and paste code here from JSfiddle and have it working -->
+  <!-- Just save as .hta and see it working ! No need for Electron etc. Just keep in mind you're working with IE -->
+ <title>Radubuntu</title>
+ <!--Needed metatag to work with IE. SUPER VERY IMPORTANT-->
+ <meta http-equiv="x-ua-compatible" content="ie=11"/>
+ <!--Include Jquery, Bootstrap-->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+ <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+ <!--CSS Style goes here-->
+ <style>
+  body {
+  background: #20262E;
+  padding: 20px;
+  font-family: Helvetica;
+  }
+
+  #banner-message {
+    background: #fff;
+    border-radius: 4px;
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+    transition: all 0.2s;
+    margin: 0 auto;
+    width: 300px;
+  }
+
+  button {
+    background: #0084ff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 14px;
+    font-size: 15px;
+    color: #fff;
+  }
+
+  #banner-message.alt {
+    background: #0084ff;
+    color: #fff;
+    margin-top: 40px;
+    width: 200px;
+  }
+
+  #banner-message.alt button {
+    background: #fff;
+    color: #000;
+  }
+ </style>
+ <!--CSS Style ends here-->
+</head>
+<body>
+  <!-- HTML code goes here -->
+  <div id="banner-message">
+    <p>Hello World</p>
+    <button>Change color</button>
+  </div>
+  <!-- JAVASCRIPT code goes here -->
+  <script type="text/javascript">
+    // find elements
+    var banner = $("#banner-message")
+    var button = $("button") //Never use # here
+    <!-- JQUERY code goes here -->
+    // handle click and add class
+    button.on("click", function(){
+      banner.addClass("alt")
+    })
+  </script>
+</body>
+</html>
