@@ -1,0 +1,25 @@
+The <HTA:Application> Tag can be placed in the HEAD section, exactly like you can see below :
+...
+<head>
+<title>HTA Test</title>
+<HTA:APPLICATION 
+     APPLICATIONNAME="HTA Test"
+     SCROLL="yes"
+     SINGLEINSTANCE="yes"
+     WINDOWSTATE="maximize"
+>
+</head>
+...
+
+Those are the accepted values :
+
+ApplicationName : Sets the name of the HTA. This name is used to enforce the SingleInstance property, and is also the name that appears in Windows Task Manager.
+Border :Sets the type of border used for the HTA window. Values include thick (for a resizable window) and thin (for a non-resizable window).
+Caption : Yes/No value specifying whether the HTA displays a caption in the title bar. The default value is Yes.
+MaximizeButton : Yes/No value specifying whether the HTA displays a Maximize button in the title bar. The default value is Yes.
+MinimizeButton : Yes/No value specifying whether the HTA displays a Minimize button in the title bar. The default value is Yes.
+Scroll : Yes/No value specifying whether the HTA will scroll if returned data is larger than the window size. The default value is Yes.
+ShowInTaskbar : Yes/No value specifying whether the HTA is shown in the Windows taskbar. The default value is Yes.
+SingleInstance : Yes/No value specifying whether more than one instance of this HTA can be active at a time. For this property to take effect, you must also specify an ApplicationName. The default value is Yes.
+SysMenu :Yes/No value specifying whether the HTA displays the System menu in the title bar. The default value is Yes.
+WindowState : Sets the initial size of the HTA window. Values are Normal, Minimize, and Maximize. By default the WindowState is set to Normal.
