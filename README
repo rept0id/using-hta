@@ -6,3 +6,19 @@ Just read the code, the comments and then you will know where to paste your code
 In the first examples we create a programm based on the JSFiddle's Jquery example. You dont really need to know about JSFiddle, 
 what we work with is just a simple html, css and javascript (with jquery) code that is used as example there.
 You may want to pay a visit at http://jsfiddle.net. It's a robust, easy to use and really great tool to writte web code on the fly.
+-------------------------------------------------------------------------------------------------------------------------------------------
+HTML Application (Wikipedia) 
+~https://en.wikipedia.org/wiki/HTML_Application~
+An HTML Application (HTA) is a Microsoft Windows program whose source code consists of HTML, Dynamic HTML, and one or more scripting 
+languages supported by Internet Explorer, such as VBScript or JScript. 
+The HTML is used to generate the user interface, and the scripting language is used for the program logic. 
+An HTA executes without the constraints of the internet browser security model; in fact, it executes as a "fully trusted" application.
+The usual file extension of an HTA is .hta.
+~Uses~
+HTAs give the developer the features of HTML together with the advantages of scripting languages. 
+They are popular with Microsoft system administrators who use them for system administration from prototypes to "full-scale" applications,
+especially where flexibility and speed of development are critical.
+~Info about the environment~
+By default, HTAs are rendered as per "standards-mode content in IE7 Standards mode and quirks mode content in IE5 (Quirks) mode", 
+but this can be altered using X-UA-Compatible headers.[3]. The HTA engine (mshta.exe) is dependent on Internet Explorer. 
+Starting from Windows Vista, a user can remove Internet Explorer from Windows, which will cause the HTA engine to stop working.
