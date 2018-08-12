@@ -9,7 +9,7 @@ You may want to pay a visit at http://jsfiddle.net. It's a robust, easy to use a
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 HTML Application INFO
-~Wikipedia : https://en.wikipedia.org/wiki/HTML_Application~
+~ Wikipedia : https://en.wikipedia.org/wiki/HTML_Application ~
 An HTML Application (HTA) is a Microsoft Windows program whose source code consists of HTML, Dynamic HTML, and one or more scripting 
 languages supported by Internet Explorer, such as VBScript or JScript. 
 The HTML is used to generate the user interface, and the scripting language is used for the program logic. 
@@ -19,7 +19,9 @@ The usual file extension of an HTA is .hta.
 HTAs give the developer the features of HTML together with the advantages of scripting languages. 
 They are popular with Microsoft system administrators who use them for system administration from prototypes to "full-scale" applications,
 especially where flexibility and speed of development are critical.
-~Info about the environment~
+~Info about the environment~  ********************************X-UA-Compatible headers**********************************************
 By default, HTAs are rendered as per "standards-mode content in IE7 Standards mode and quirks mode content in IE5 (Quirks) mode", 
-but this can be altered using X-UA-Compatible headers.[3]. The HTA engine (mshta.exe) is dependent on Internet Explorer. 
+but this can be altered using X-UA-Compatible headers*. The HTA engine (mshta.exe) is dependent on Internet Explorer. 
 Starting from Windows Vista, a user can remove Internet Explorer from Windows, which will cause the HTA engine to stop working.
+
+* Needed meta-tag (HEAD) to work with modern browsers standards : <meta http-equiv="x-ua-compatible" content="ie=11"/>
