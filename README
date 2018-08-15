@@ -5,7 +5,7 @@ There are plenty of tools out there, but, for sure, wouldn't it be great to crea
 filename extension from ".html" to ".hta" having a perfectly working application for all MS Windows systems!?
 HTA stands for HTML Application and it was introduced as technology back in 1999. We better ask our second best friend, Wikipedia : 
 
-\\**// 
+\\**// (Wikipedia)
 An HTML Application (HTA) is a Microsoft Windows program whose source code consists of HTML, Dynamic HTML, and one or more 
 scripting languages supported by Internet Explorer, such as VBScript or JScript. The HTML is used to generate the user interface, 
 and the scripting language is used for the program logic.
@@ -24,7 +24,7 @@ where flexibility and speed of development are critical. (https://en.wikipedia.o
 
 -> HMMM... SO IT SOUNDS GREAT BUT WHY HTA, INSTEAD OF ELECTRON (OR VISUAL BASIC VIA MS VISUAL STUDIO, ETC.) ? (1)
 
-In fact, there are 2 known ways : Electron, and HTA.
+In fact, there are 2 known ways (to develop desktop apps fast and easily) : Electron, and HTA.
 With Electron, the lazy way would be to go, here, on GitHub, at Electron/releases and download a stable release 
 (right now 15-8-18, the best choice would be electron v2.0.7), depending on your system (Win/Mac/Linux). For a Windows
 application you'd propably choose electron-v2.0.7-win32-x64.zip and then unzip at your projects folder. Under Electron's "/Resources" 
@@ -123,55 +123,3 @@ So, HTA is a real great tool to work with, even in ourdays!
   </script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-->Check JSfiddle examples for a simple HTML/CSS/JS example* Dont worry ;)
-
-Based on the principle of the least effort (https://en.wikipedia.org/wiki/Principle_of_least_effort), 
-We will try here to give some examples and templates to easily create graphical Windows applications just by using HTML.
-
-Just read the code, the comments and then you will know where to paste your code.
-
-*In the first examples we create a programm based on the JSFiddle's Jquery example. You dont really need to know about JSFiddle, 
-what we work with is just a simple html, css and javascript (with jquery) code that is used as example there.
-You may want to pay a visit at http://jsfiddle.net. It's a robust, easy to use and really great tool to writte web code on the fly.
-----------------------------------------------------------------------------------------------------------------------------------------
-
-HTML Application INFO
-~ Wikipedia : https://en.wikipedia.org/wiki/HTML_Application ~
-An HTML Application (HTA) is a Microsoft Windows program whose source code consists of HTML, Dynamic HTML, and one or more scripting 
-languages supported by Internet Explorer, such as VBScript or JScript. 
-The HTML is used to generate the user interface, and the scripting language is used for the program logic. 
-An HTA executes without the constraints of the internet browser security model; in fact, it executes as a "fully trusted" application.
-The usual file extension of an HTA is .hta.
-~Uses~
-HTAs give the developer the features of HTML together with the advantages of scripting languages. 
-They are popular with Microsoft system administrators who use them for system administration from prototypes to "full-scale" applications, especially where flexibility and speed of development are critical.
-~Info about the environment~  ********************************X-UA-Compatible headers**********************************************
-By default, HTAs are rendered as per "standards-mode content in IE7 Standards mode and quirks mode content in IE5 (Quirks) mode", 
-but this can be altered using X-UA-Compatible headers*. The HTA engine (mshta.exe) is dependent on Internet Explorer. 
-Starting from Windows Vista, a user can remove Internet Explorer from Windows, which will cause the HTA engine to stop working.
-
-* Needed meta-tag (HEAD) to work with modern browsers standards : <meta http-equiv="x-ua-compatible" content="ie=11"/>
-
-For the future : 
--> HTA apps based on VBS, just to do stuff like deleting storage files, gain system info etc.
--> HTA apps that works with cookies !
--> Create HTA apps based on websites !
-    ---> Still having some problems here, need to work a lot with the hta logic, 
-         try again some examples but with the x-ua-compatible tag etc.
-         Pages sure the wont be transformed easily but i need to find a pattern/patent there too.
