@@ -3,7 +3,8 @@ Based on the principle of the least effort (https://en.wikipedia.org/wiki/Princi
 your life to create, REALLY FAST, a simple but yet robust working application with graphical user interface.
 There are plenty of tools out there, but, for sure, wouldn't it be great to create a simple html file and just by changing it's
 filename extension from ".html" to ".hta" having a perfectly working application for all MS Windows systems!?
-HTA stands for HTML Application and it was introduced as technology back in 1999. We better ask our second best friend, Wikipedia : 
+HTA stands for HTML Application and it was introduced as technology back in 1999. 
+*********************************And yes, you can convert your code into Executable (.exe) ! (CHECK BELOW)
 
 \\**// (Wikipedia)
 An HTML Application (HTA) is a Microsoft Windows program whose source code consists of HTML, Dynamic HTML, and one or more 
@@ -20,7 +21,7 @@ where flexibility and speed of development are critical. (https://en.wikipedia.o
                                                              3. HTA NEEDED META TAGS : x-ua-compatible (super simple)
                                                              4. HTA NEEDED META TAGS : <HTA:APPLICATION> (optional)
                                                              5. FINALY, GIMME SELTER (BOILERPLATE TO INSTANT COPY - PASTE)
-                                                   
+                                                             6. Convert into Executable
 
 -> HMMM... SO IT SOUNDS GREAT BUT WHY HTA, INSTEAD OF ELECTRON (OR VISUAL BASIC VIA MS VISUAL STUDIO, ETC.) ? (1)
 
@@ -43,6 +44,9 @@ in seconds, *even without Internet connection to download the Electron files* !
 So, HTA is a real great tool to work with, even in ourdays!
 
 -> HTA NEEDED META TAGS ********************************************************************************** (3)
+It's REALLY important to put the meta-tags below in your scripts, as higher as you can and before importing any library or calling any
+ external script. X-ua-compatible, in case it's below anything else, it's just going to waste time, because when it's called it forces
+ browser (internet explorer) to check again the code ! So remember : BASIC HTA META-TAGS ALWAYS ON TOP. ! :)
  1. x-ua-compatible 
   In order to work with todays browser standards you need to specify a modern IE version : 
   <meta http-equiv="x-ua-compatible" content="ie=EmulateIE11"/> for win7/later (best!)
@@ -111,6 +115,10 @@ So, HTA is a real great tool to work with, even in ourdays!
     <!-- // JQUERY code goes here : -->
   </script>
   
+  <script language="VBScript">
+    'VBS code goes here
+  </script>
+  
   <!-- Window resizing and centering. It can also be inside the previous script area, it's just simple JS. -->
   <script type="text/javascript">
     function Window_onLoad(){  // resize to quarter of screen area, centered
@@ -125,3 +133,9 @@ So, HTA is a real great tool to work with, even in ourdays!
   </script>
 </body>
 </html>
+
+-> Convert into executable
+It's highly suggested to download VBSedit and HTAedit. Just download VBSedit and HTAedit will be also installed. 
+ (It's better to go and get them from their official trusted source, here : https://www.vbsedit.com).
+Then on HTAedit paste your code and go to "File" > "Convert Into Executable". First you'll asked where to save the .hta file 
+ and then about the .exe file. It's really easy. Go ahead, check it ! Now !
