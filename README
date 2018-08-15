@@ -50,10 +50,10 @@ So, HTA is a real great tool to work with, even in ourdays!
   <meta http-equiv="x-ua-compatible" content="ie=EmulateIE8"/> for XP,2003
   <meta http-equiv="x-ua-compatible" content="ie=EmulateIE6"/> for NT 4.0, 98, 2000, ME
   <meta http-equiv="x-ua-compatible" content="ie=EmulateIE5"/> for Win95
-  (see boilerplate below)
+  (for example, see boilerplate below)
   
 2. <HTA:APPLICATION> ************************************************************************************** (4)
-  example: <HEAD><HTA:APPLICATION ID="HelloExample" BORDER="thick" BORDERSTYLE="complex"/></HEAD>
+  example (first, see boilerplate below): <HEAD><HTA:APPLICATION ID="HelloExample" BORDER="thick" BORDERSTYLE="complex"/></HEAD>
   Accepted values :
 *ApplicationName : Sets the name of the HTA. 
 *Border : Sets the type of border used for the HTA window. 
@@ -88,6 +88,7 @@ So, HTA is a real great tool to work with, even in ourdays!
 <html>
 <head>
  <title>Application Title</title>
+ <HTA:APPLICATION ID="ApplicationTitle" BORDER="thick" BORDERSTYLE="complex"/>
  <!-- // Needed metatag to work with IE. SUPER VERY IMPORTANT : -->
  <meta http-equiv="x-ua-compatible" content="ie=11"/>
  <!-- // Include Jquery, Bootstrap-->
