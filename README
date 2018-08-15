@@ -94,7 +94,7 @@ It's REALLY important to put the meta-tags below in your scripts, as higher as y
  <title>Application Title</title>
  <HTA:APPLICATION ID="ApplicationTitle" BORDER="thick" BORDERSTYLE="complex"/>
  <!-- // Needed metatag to work with IE. SUPER VERY IMPORTANT : -->
- <meta http-equiv="x-ua-compatible" content="ie=11"/>
+ <meta http-equiv="x-ua-compatible" content="ie=EmulateIE11"/>
  <!-- // Include Jquery, Bootstrap-->
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
