@@ -96,6 +96,7 @@ So, HTA is a real great tool to work with, even in ourdays!
  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
  <style>
    <!-- // CSS Style goes here-->
+     <!-- // -->
    <!-- // CSS Style ends here-->
  </style>
 </head>
