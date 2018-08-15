@@ -1,0 +1,10 @@
+It's REALLY important to put the meta-tags below in your scripts, as higher as you can and before importing any library or calling any
+ external script. X-ua-compatible, in case it's below anything else, it's just going to waste time, because when it's called it forces
+ browser (internet explorer) to check again the code ! So remember : BASIC HTA META-TAGS ALWAYS ON TOP. ! :)
+ 1. x-ua-compatible 
+  In order to work with todays browser standards you need to specify a modern IE version : 
+  <meta http-equiv="x-ua-compatible" content="ie=EmulateIE11"/> for win7/later (best!)
+  <meta http-equiv="x-ua-compatible" content="ie=EmulateIE9"/> for Vista,2008
+  <meta http-equiv="x-ua-compatible" content="ie=EmulateIE8"/> for XP,2003
+  <meta http-equiv="x-ua-compatible" content="ie=EmulateIE6"/> for NT 4.0, 98, 2000, ME
+  <meta http-equiv="x-ua-compatible" content="ie=EmulateIE5"/> for Win95
