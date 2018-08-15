@@ -22,7 +22,7 @@ where flexibility and speed of development are critical. (https://en.wikipedia.o
                                                              5. FINALY, GIMME SELTER (BOILERPLATE TO INSTANT COPY - PASTE)
                                                    
 
--> HMMM... SO IT SOUNDS GREAT BUT WHY HTA, AND NOT ELECTRON (OR VISUAL BASIC VIA MS VISUAL STUDIO, ETC.) ? (1)
+-> HMMM... SO IT SOUNDS GREAT BUT WHY HTA, INSTEAD OF ELECTRON (OR VISUAL BASIC VIA MS VISUAL STUDIO, ETC.) ? (1)
 
 In fact, there are 2 known ways : Electron, and HTA.
 With Electron, the lazy way would be to go, here, on GitHub, at Electron/releases and download a stable release 
