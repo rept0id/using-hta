@@ -86,7 +86,7 @@ It's REALLY important to put the meta-tags below in your scripts, as higher as y
   Maximize, Restore, and Close. The default value is Yes. 
 *WindowsState : Sets the initial size of the HTA window. Values are: Normal Minimize Maximize
 
--> FINALY, GIMME SELTER (BOILERPLATE) ********************************************************************** (5)
+-> FINALY, GIMME SHELTER (BOILERPLATE) ********************************************************************** (5)
 *Minimal boilerplate (paste on notepad, do your tricks and save as .hta) : 
 <!DOCTYPE html>
 <html>
