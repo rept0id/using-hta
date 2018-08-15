@@ -26,19 +26,19 @@ where flexibility and speed of development are critical. (https://en.wikipedia.o
 -> HMMM... SO IT SOUNDS GREAT BUT WHY HTA, INSTEAD OF ELECTRON (OR VISUAL BASIC VIA MS VISUAL STUDIO, ETC.) ? (1)
 
 In fact, there are 2 known ways (to develop desktop apps fast and easily) : Electron, and HTA.
-With Electron, the lazy way would be to go, here, on GitHub, at Electron/releases and download a stable release 
+About Electron, the lazy way would be to go, here, on GitHub, at Electron/releases and download a stable release 
 (right now 15-8-18, the best choice would be electron v2.0.7), depending on your system (Win/Mac/Linux). For a Windows
 application you'd propably choose electron-v2.0.7-win32-x64.zip and then unzip at your projects folder. Under Electron's "/Resources" 
 folder, create a folder named "app" and paste there your html file as "index.html". You may need to create a "manifest" and a "package" 
 (package.json) file. See further, at https://electronjs.org/docs/tutorial/first-app.
-Sure, this way would be better if you'd like to create a fully featured application. Thus, you'd be able to have an application working 
-with other OS as Linux and MacOS. On the other hand, why to mess with "manifests", downloading Electron files (~50mb) and wasting time 
-at Electron documentations for, let's say, an application that show simple messages with, let's say, some calculations ?
+Ofcourse this way would be better if you'd like to create a fully featured application. Thus, you'd be able to have an application working 
+with other OS as Linux and MacOS. On the other hand, why mess with "manifests", downloading Electron files (~50mb) and wasting time 
+at Electron documentations, for, let's say, an application that is showing plain messages with simple calculations ?
 
 --> STOP TAKING BROADBAND CONNECTION AND TIME FOR GRANDED, EVERYWHERE. (2)
 
-At my current job, we just needed an application that converts text input from Uppercase to Lowercase, 
-just to change some products name. Messing with Electron would had taken years while I was able to create a simple HTA application 
+In my current job, we just needed an application that converts text input from Uppercase to Lowercase, 
+just to change some products names. Thing is, that messing with Electron would had taken years, so I created a simple HTA application 
 in seconds, *even without Internet connection to download the Electron files* !
 
 So, HTA is a real great tool to work with, even in ourdays!
