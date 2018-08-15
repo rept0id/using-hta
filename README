@@ -38,7 +38,7 @@ at Electron documentations for, let's say, an application that show simple messa
 
 At my current job, we just needed an application that converts text input from Uppercase to Lowercase, 
 just to change some products name. Messing with Electron would had taken years while I was able to create a simple HTA application 
-in seconds, *even without Internet connection to download Electron files* !
+in seconds, *even without Internet connection to download the Electron files* !
 
 So, HTA is a real great tool to work with, even in ourdays!
 
