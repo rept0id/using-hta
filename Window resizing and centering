@@ -1,0 +1,12 @@
+<!-- Window resizing and centering. It can also be inside the previous script area, it's just simple JS. -->
+<script type="text/javascript">
+  function Window_onLoad(){  // resize to quarter of screen area, centere
+  //Custom resize - : 
+       //window.resizeTo(300,290);
+  // - or resize depending on screen (very beautiful). :
+       //window.resizeTo(screen.availWidth/2,screen.availHeight/2);
+       //Centering :
+       //window.moveTo(screen.availWidth/4,screen.availHeight/4);
+  }
+  window.onload=Window_onLoad;
+</script>
